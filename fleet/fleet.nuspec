@@ -8,7 +8,7 @@
 		<title>fleet (Install)</title>
 		<authors>Rancher Labs</authors>
 		<projectUrl>https://fleet.rancher.io/</projectUrl>
-		<!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/fleet.png</iconUrl>-->
+		<iconUrl>https://cdn.statically.io/gh/zverev-iv/choco-fleet/master/fleet/logo.png</iconUrl>
 		<copyright>2020 Rancher Labs</copyright>
 		<licenseUrl>https://github.com/rancher/fleet/edit/master/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
