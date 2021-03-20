@@ -1,8 +1,0 @@
-os: windows
-language: shell
-branches:
-  only:
-    - master
-script:
-  - powershell -c "Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine"
-  - powershell .\\build.ps1

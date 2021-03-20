@@ -3,7 +3,7 @@ var target = Argument("target", "Publish");
 var packageInfo = new ChocolateyPackSettings {
     //PACKAGE SPECIFIC SECTION
     Id                       = "fleet",
-    Version                  = "0.3.2",
+    Version                  = "0.3.3",
     PackageSourceUrl         = new Uri("https://github.com/zverev-iv/choco-fleet"),
     Owners                   = new[] {"zverev-iv"},
     //SOFTWARE SPECIFIC SECTION
@@ -28,7 +28,7 @@ Fleet can manage deployments from git of raw Kubernetes YAML, Helm charts, or Ku
         new ChocolateyNuSpecContent {Source = System.IO.Path.Combine("src", "**"), Target = "tools"}
         },
     Tags                     = new [] {
-        "fleet", 
+        "fleet",
         "rancher",
         "kubernetes",
         "docker",
