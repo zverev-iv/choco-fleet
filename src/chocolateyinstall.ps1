@@ -4,8 +4,8 @@ $packageArgs = @{
 	packageName    = $env:ChocolateyPackageName
 	unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 	softwareName   = "fleet"
-	url64bit       = "https://github.com/rancher/fleet/releases/download/v0.3.3/fleet_0.3.3_windows_amd64.zip";
-	checksum64     = "56B0B25630E7E5470D6999775FE66E640BD850F3D8D3FDCE8332C4680562A26A";
+	url64bit       = "https://github.com/rancher/fleet/releases/download/v0.3.4/fleet_0.3.4_windows_amd64.zip";
+	checksum64     = "F6A7D20600315A57C5816F8C404C135862397FA7927B22B9FCDA4C010E9D5599";
 	checksumType64 = "sha256";
 }
 
