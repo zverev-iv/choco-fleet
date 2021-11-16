@@ -3,7 +3,7 @@ var target = Argument("target", "Publish");
 var packageInfo = new ChocolateyPackSettings {
     //PACKAGE SPECIFIC SECTION
     Id                       = "fleet",
-    Version                  = "0.3.4",
+    Version                  = "0.3.7",
     PackageSourceUrl         = new Uri("https://github.com/zverev-iv/choco-fleet"),
     Owners                   = new[] {"zverev-iv"},
     //SOFTWARE SPECIFIC SECTION
