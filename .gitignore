@@ -1,2 +1,6 @@
+tools/
+.vscode/
+bin/
+temp/
 *.nupkg
-tools/*
+*.nuspec
