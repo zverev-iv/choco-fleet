@@ -1,6 +1,6 @@
 {
   "Package32Url": null,
-  "Package64Url": "https://github.com/rancher/fleet/releases/download/v0.3.4/fleet_0.3.4_windows_amd64.zip",
+  "Package64Url": "https://github.com/rancher/fleet/releases/download/v0.5.1/fleet-windows-amd64.exe",
   "BinDir": "bin",
   "TempDir": "temp",
   "PackageSettings": {
@@ -35,7 +35,7 @@
     "ReleaseNotes": ["https://github.com/rancher/fleet/releases"],
     "Files": [{ "Source": "bin\\**", "Target": "tools", "Exclude": null }],
     "Dependencies": [],
-    "Version": "0.3.4",
+    "Version": "0.5.1",
     "OutputDirectory": null,
     "Debug": false,
     "Verbose": false,

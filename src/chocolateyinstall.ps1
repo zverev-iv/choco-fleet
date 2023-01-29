@@ -7,6 +7,7 @@ $packageArgs = @{
 	url64bit      = "${url64bit}"
 	checksum64    = "${checksum64}"
   	checksumType64= "${checksumType64}"
+	fileFullPath  = "$(Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) "fleet.exe")"
 }
 
-Install-ChocolateyZipPackage @packageArgs
+Get-ChocolateyWebFile @packageArgs
